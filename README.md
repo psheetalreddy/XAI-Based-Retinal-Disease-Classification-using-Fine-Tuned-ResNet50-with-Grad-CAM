@@ -18,6 +18,20 @@ The model integrates transfer learning, controlled fine-tuning, and Grad-CAM bas
 - Generate visual explanations using Grad-CAM.
 - Establish a foundation for explanation consistency and reliability analysis.
 
+## Dataset
+
+The dataset used in this project is publicly available:
+
+Eye Disease Retinal Images Dataset  
+https://ieee-dataport.org/documents/four-public-datasets-explainable-medical-image-classifications
+
+Download the dataset and place it in:
+
+eye-disease-dataset/
+    train_dir/
+    val_dir/
+    test_dir/
+
 ## Model Architecture
 
 - Backbone: ResNet50 (pretrained on ImageNet)
